@@ -1,0 +1,11 @@
+
+#!/bin/bash
+
+echo -n "Your name is "
+whoami
+echo -n "Your working directory is "
+pwd
+echo -n "Number of users "
+ps -ef | wc -l
+
+echo "done"
